@@ -1,0 +1,14 @@
+PATH
+  remote: .
+  specs:
+    i18n_manylang_patch (0.0.1)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  i18n_manylang_patch!
