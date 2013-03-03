@@ -1,6 +1,6 @@
 # I18nManylangPatch
 
-TODO: Write a gem description
+aad i18n gem search many lang
 
 ## Installation
 
