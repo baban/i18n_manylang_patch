@@ -1,7 +1,6 @@
 # I18nManylangPatch
 
-翻訳ファイルのに抜けがあっても、英語版の翻訳ファイルを再度見に行くように
-I18nのgemに修正をかけます
+english translation file re-search, if your language translation file hit lacked property
 
 ## Installation
 
@@ -19,10 +18,10 @@ Or install it yourself as:
 
 ## Usage
 
-通常のI18n gemでは、各言語の翻訳がすべて揃っていないと
-翻訳に失敗した時にエラーメッセージが表示されます
-これを防ぐために翻訳に失敗した場合は、英語の翻訳ファイルを見に行くロジックを追加しました　
-英語版の翻訳ファイルさえ揃っていれば、他の言語ファイルは抜けがあっても最低限の処理はできます
+when you use rails i18n gem translation using,
+if translation property is lacked, error message is printing.
+this gem prevent error message and re-search english translation property
+you need to create completely translation file only english!!
 
 ## Contributing
 
